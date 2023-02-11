@@ -15,7 +15,11 @@
         "polyfills": ["zone.js"],
         "tsConfig": "frame/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": ["frame/src/favicon.ico", "frame/src/assets"],
+        "assets": [
+          "frame/src/favicon.ico",
+          "frame/src/assets",
+          "frame/src/netlify.toml"
+        ],
         "styles": ["frame/src/styles.scss"],
         "scripts": [],
         "customWebpackConfig": {
