@@ -8,7 +8,7 @@ import {FrameWholeModule} from "ngx-liburg-frame-side";
 
 @NgModule({
   declarations: [RemoteEntryComponent],
-  imports: [CommonModule, RouterModule.forChild(remoteRoutes), FrameWholeModule],
+    imports: [CommonModule, RouterModule.forChild(remoteRoutes), FrameWholeModule],
   providers: [],
 })
 export class RemoteEntryModule {}
