@@ -2,7 +2,9 @@
   "name": "sidebar",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build":"nx build frame"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.1.0",
