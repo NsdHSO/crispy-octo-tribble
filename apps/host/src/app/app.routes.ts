@@ -3,7 +3,7 @@ import { Route } from '@angular/router';
 
 export const appRoutes: Route[] = [
   {
-    path: 'frame',
+    path: 'tms',
     loadChildren: () => import('frame/Module').then((m) => m.RemoteEntryModule),
   },
   {

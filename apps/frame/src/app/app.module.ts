@@ -3,11 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import {IconCoreModule} from "ngx-liburg-icon";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
-    IconCoreModule,
+    HttpClientModule,
     BrowserModule,
     RouterModule.forRoot(
       [

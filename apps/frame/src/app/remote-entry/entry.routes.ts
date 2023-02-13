@@ -5,7 +5,10 @@ export const remoteRoutes: Route[] = [
   {
     path: '',
     component: RemoteEntryComponent,
-    loadChildren: () =>
-      import('driver/Module').then((m) => m.RemoteEntryModule),
-  },
+    children: [{
+      path: 'driver',
+      loadChildren: () =>
+        import('driver/Module').then((m) => m.RemoteEntryModule),
+    }]
+  }
 ];
