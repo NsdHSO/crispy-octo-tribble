@@ -6,6 +6,7 @@ import {NxWelcomeComponent} from './nx-welcome.component';
 import {RouterModule} from '@angular/router';
 import {appRoutes} from './app.routes';
 import {HttpClientModule} from "@angular/common/http";
+import { IconCoreModule } from "ngx-liburg-icon";
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
