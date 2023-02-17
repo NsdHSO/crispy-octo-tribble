@@ -6,5 +6,5 @@ export const CONFIG_MAIN = Object.freeze({
       text: 'Driver'
     },
   ],
-  iconApp: 'fa_solid:car'
+  iconApp: 'fa_solid:gear'
 });
