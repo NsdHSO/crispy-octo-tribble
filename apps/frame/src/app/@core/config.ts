@@ -2,9 +2,9 @@ export const CONFIG_MAIN = Object.freeze({
   routerDataConfig: [
     {
       path: 'driver',
-      icon: 'fa_solid:cart-plus',
+      icon: 'fa_solid:car',
       text: 'Driver'
     },
   ],
-  iconApp: ''
+  iconApp: 'fa_solid:car'
 });
