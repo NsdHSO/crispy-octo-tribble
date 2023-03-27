@@ -5,6 +5,6 @@ module.exports = {
     './Module': 'apps/frame/src/app/remote-entry/entry.module.ts',
   },
   remotes: [
-   [ 'driver', 'https://stalwart-mochi-0d48f5.netlify.app/remoteEntry.mjs'],
+   [ 'driver', 'https://driver-tms.netlify.app/remoteEntry.mjs'],
   ],
 };
